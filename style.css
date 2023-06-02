@@ -1,0 +1,127 @@
+
+.container-fluid{
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding-bottom: calc(10vh);
+}
+.scroll-down-text{
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.arrow {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+
+.arrow span {
+    display: block;
+    width: 2.5vh;
+    height: 2.5vh;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+div.col-sm{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #bcbcbc;
+    text-align: center;
+}
+
+
+div.price-bonus{
+    color: #6a6a6a;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.pricing-pro{
+    font-weight: 800;
+}
+.pricing-standard{
+    color: #9d9d9d;
+    font-weight: 600;
+}
+.pricing-plus{
+    color: #9d9d9d;
+    font-weight: 600;
+}
+h5.pricing{
+    font-style: italic;
+}
+
+#scrolltop {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAe1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////NgkbwAAAAKHRSTlMAAQIDDRITFBcdHh8gIyQlJjdDREx1d4CCg4WXmpu5urzZ6e3v+fv9pStiuwAAAI9JREFUOE/dylkWgkAMRNFqUXEW53kC1Ox/hWKOtG3SZgHkq3LuAxp4q7xv+oboPrDdLNiNYktkFt7/FIFHix+viqHwHYkThffr7Bkrvp4gixT7wIHsURcj6ZeE/6kopMtirTwsUuCmHZjUxRxIS17n0H1xctXultqB8bs4Ot6dQjsXB/fZ7WVLOdBbODTmXgKJJx7c/fm3AAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    display: block;
+    z-index: 9999;
+}
+
+h4.slogan{
+    font-style: italic;
+}
+
+div.Hiring{
+    text-align: center;
+}
+
+div.col-md-15{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #bcbcbc;
+    text-align: center;
+}
+
+p.dependings{
+    font-style: italic;
+    font-weight: 300;
+}
+
+.footer-info{
+    color: white;
+}
+
+img.blue-camera{
+    padding-left: 2%;
+}
+a.menu-text{
+    padding-left: 2%;
+}
