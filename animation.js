@@ -16,14 +16,3 @@ window.onscroll = function() {
     };
 };
 
-
-//search anything on site
-
-//$(document).ready(function () {
-//    $("#anythingSearch").on("keyup", function () {
-//      var value = $(this).val().toLowerCase();
-//      $("#myDIV *").filter(function () {
-//        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-//      });
-//    });
-//  });

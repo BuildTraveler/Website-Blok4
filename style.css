@@ -6,7 +6,7 @@
 }
 .scroll-down-text{
     position: absolute;
-    top: 69%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -52,34 +52,6 @@
     }
 }
 
-div.col-sm{
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: #bcbcbc;
-    text-align: center;
-}
-
-
-div.price-bonus{
-    color: #6a6a6a;
-    font-weight: bolder;
-    text-align: left;
-}
-
-.pricing-pro{
-    font-weight: 800;
-}
-.pricing-standard{
-    color: #9d9d9d;
-    font-weight: 600;
-}
-.pricing-plus{
-    color: #9d9d9d;
-    font-weight: 600;
-}
-h5.pricing{
-    font-style: italic;
-}
 
 #scrolltop {
     position: fixed;
@@ -99,29 +71,35 @@ h4.slogan{
     font-style: italic;
 }
 
-div.Hiring{
-    text-align: center;
-}
-
-div.col-md-15{
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: #bcbcbc;
-    text-align: center;
-}
-
-p.dependings{
-    font-style: italic;
-    font-weight: 300;
-}
-
 .footer-info{
     color: white;
 }
 
-img.blue-camera{
-    padding-left: 2%;
+div.bg-image{
+    background-position: center center;
 }
+
+@font-face {
+    font-family: Rodondo;
+    src: url(Rodondo.otf);
+}
+
+h1.Page-title{
+    color: rgb(19, 68, 73);
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-family: Rodondo;
+    font-size: 550%;;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
 a.menu-text{
     padding-left: 2%;
 }
